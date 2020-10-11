@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/work.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 45%;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
+}
+
+form {
+  border-color: white;
+  border:10px;
+  width: 500px;
+  border-radius: 25%;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+
+  padding: 3px;
+  background-color:  #333;
+  color: white;
+  width: 100%;
+  bottom:0;
+  position: fixed;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.background_img{
+  position: absolute;
+  height:100%;
+  width: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("donuts.png");
+  z-index: -1;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#Weblogo{
+  float: left;
+  top: 50%;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#Weblogo a{
+  text-align: center;
+  align-self: center;
+  font-size: 24px;
+}
+
+
+.split {
+  float:top;
+  height: 500px;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 500px;
+}
+
+.left {
+  left: 0;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("donuts.png");
+  z-index: -1;
+}
+
+.right {
+  right: 0;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("donuts.png");
+  z-index: -1;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+}
+
+.centered form {
+  border-color: white;
+  border:10px;
+  width: 500px;
+  border-radius: 25%;
+  color: white;
+  font-size: 50px;
+}
+
+#browse{
+  left: 15%;
+  width:1400px;
+  align-self: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+  color: white;
+}
+
+#login{
+  border:1px solid #ccc;
+  border-radius: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+.grid-item {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.grid-container #head{
+  background-color: black;
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.container{
+  width: 70%;
+  padding-right: 15%;
+  padding-left:15%;
+
+
+}
+
